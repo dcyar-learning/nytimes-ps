@@ -4,7 +4,7 @@ Maquetación de página del The New York Times
 
 <hr>
 
-[Pueden ver el demo aquí](https://dcyar-learning.github.io/nytimes-ps/index.html)
+[Pueden ver el demo aquí](https://dcyar-learning.github.io/nytimes-ps/)
 
 <hr>
 
