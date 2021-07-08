@@ -1,0 +1,303 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container {
+  width: 65%;
+  margin: 0 auto;
+  padding: 5px 0;
+}
+
+.top-nav div,
+.top-nav .nav,
+.top-nav .nav ul li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.top-nav .menu,
+.top-nav .auth {
+  width: 10%;
+}
+
+.top-nav .menu a {
+  margin-right: 18px;
+}
+
+.top-nav .nav {
+  width: 78%;
+  text-align: center;
+}
+
+.top-nav .auth {
+  text-align: right;
+}
+
+.top-nav .nav ul li a {
+  font-size: 10px;
+  text-transform: uppercase;
+  margin: 0 5px;
+}
+
+.top-nav .auth button {
+  padding: 10px 15px;
+  background-color: #567b95;
+  border: #326891;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.title {
+  margin: 10px 0;
+}
+
+.title p,
+.title h1,
+.title div {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+
+.title p,
+.title div {
+  width: 30%;
+  font-size: 11px;
+}
+
+.title p {
+  font-weight: bold;
+}
+
+.title h1 {
+  width: 38%;
+  text-align: center;
+  font-size: 42px;
+}
+
+.title div {
+  text-align: right;
+}
+
+.title div {
+  vertical-align: sub;
+}
+
+.title div a {
+  text-decoration: underline;
+  margin: 0 4px;
+}
+
+footer {
+  text-align: center;
+}
+
+#top-news {
+  border-top: 1px solid #000;
+  border-bottom: 2px solid #000;
+  padding: 10px 0;
+}
+
+#top-news div {
+  display: inline-block;
+}
+
+#top-news .tn-articles {
+  width: 88%;
+}
+
+#top-news .tn-articles article {
+  display: inline-block;
+  border-right: 1px solid #cecece;
+}
+
+#top-news .tn-articles article:first-child {
+  margin-right: 25px;
+  width: 40%;
+}
+
+#top-news .tn-articles article:last-child {
+  width: 54%;
+}
+
+#top-news .tn-articles article img,
+#top-news .tn-articles article div {
+  vertical-align: middle;
+}
+
+#top-news .tn-articles article img {
+  width: 75px;
+  margin-right: 10px;
+}
+
+#top-news .tn-articles article:first-child div {
+  width: 75%;
+}
+
+#top-news .tn-articles article:last-child div {
+  width: 62%;
+}
+
+#top-news .tn-articles article:last-child button {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 11px;
+  background-color: #567b95;
+  border: #326891;
+  color: #eee;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#top-news .tn-articles article:last-child button:hover {
+  background-color: #416986;
+  transition: all 0.5s ease;
+}
+
+#top-news .tn-articles article div h3 {
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+#top-news .tn-articles article div p {
+  font-size: 12px;
+  color: #777;
+}
+
+#top-news .weather {
+  width: 11%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#top-news .weather p {
+  font-size: 11px;
+}
+
+#top-news .weather p span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#top-news .weather > span {
+  font-size: 11px;
+}
+
+#news {
+  padding: 25px 0;
+}
+
+#news article,
+.news-right {
+  box-sizing: border-box;
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#news > article {
+  border-right: 1px solid #cfcfcf;
+  padding: 0 15px;
+}
+
+#news .news-right > article,
+#news .news-right > div {
+  display: inline-block;
+}
+
+#news .news-right > article {
+  border-right: 1px solid #cfcfcf;
+  width: 60%;
+  padding: 0 10px;
+}
+
+#news .news-right > div {
+  width: 38%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+#news .news-right div .news-one {
+  width: 100%;
+  display: block;
+}
+
+.news-one figure {
+  width: 100%;
+}
+
+.news-one figure img {
+  width: 100%;
+}
+
+.news-one figure figcaption,
+.news-one-right figure figcaption {
+  text-align: right;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #adadad;
+}
+
+.news-one h2 {
+  font-size: 19px;
+  margin: 16px 0;
+}
+
+.news-one p,
+.news-one-right p {
+  font-size: 14px;
+  color: #666;
+  line-height: 19px;
+}
+
+.news-one span,
+.news-one-right .date {
+  font-size: 10px;
+  color: #666;
+}
+
+.news-one-right {
+  width: 100%;
+}
+
+.news-one-right span {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.news-one-right h2 {
+  font-size: 18px;
+  margin: 3px 0;
+}
+
+.news-one-right figure,
+.news-one-right figure img {
+  width: 75px;
+  height: 75px;
+  float: right;
+  clear: left;
+  margin-left: 10px;
+}
+
+.news-one-right {
+  width: 100% !important;
+  margin: 0 0 5px;
+  padding-bottom: 10px;
+}
+
+.news-right div .news-one-right:first-child {
+  border-bottom: 1px solid #cfcfcf;
+}
